@@ -1,0 +1,84 @@
+/*Productos*/
+img{
+    width: 100%;
+    
+}
+
+.velo-negro{
+    background-color: lightslategray;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#contenedor{
+    overflow: hidden;
+}
+#contenedor:hover .productos-blanco {-webkit-transform:scale(1.3);transform:scale(1.3);}
+
+
+.logo-img{
+    max-width: 40rem;
+    margin:3rem 0;
+}
+
+
+
+.nuestrosproductos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 2rem;
+    padding: 2rem;
+    margin-top: 20px;
+}
+
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.producto{
+    background-color: rgba(255, 55, 55, 0.768);
+    margin: 2rem;
+    padding: 2rem;
+}
+
+#productos-blanco{
+    background-color: white;
+    height: 15rem;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.producto-precio, 
+.producto-nombre{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.producto-temporada{
+font-size: 1rem;
+font-weight: 650;
+text-align: center;
+}
+
+.producto-precio{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.producto-nombre{
+    font-size:2rem;
+    font-weight: 700;
+}
