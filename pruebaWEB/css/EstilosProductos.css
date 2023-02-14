@@ -1,0 +1,177 @@
+
+
+html{
+    background-color: lightgray;
+}
+:root{
+    --gold1:#F4BD76;
+}
+
+/*CABECERA*/
+
+/*CABECERA*/
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding:100px 0;
+    height: auto;
+}
+
+.container--modifier{
+    width: 60%;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+}
+
+.nav__hero{
+    color: #fff;
+    height: 70px;
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+    background-color: black;
+}
+
+.nav__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+}
+
+.logo__name{
+    font-size: 24px;
+}
+
+.link{
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.link--active{
+    color: var(--gold1);
+    font-weight: 700;
+}
+
+.point{
+    color: var(--gold1);
+}
+
+.hero__main{
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+}
+
+.mockup{
+    object-fit: cover;
+    width: 48%;
+    max-height: 90vh;
+}
+
+.hero__textos{
+    width: 48%;
+}
+
+.title{
+    font-size: 56px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.title--active{
+    color: var(--gold1);
+    font-weight: 700;
+}
+
+.copy{
+    font-size: 24px;
+    color: var(--gray);
+    text-shadow: var(--shadow)  var(--color_shadow);
+    margin: 15px 0;
+}
+
+/*Productos*/
+img{
+    width: 100%;
+    
+}
+
+.velo-negro{
+    background-color: lightslategray;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+.logo-img{
+    max-width: 40rem;
+    margin:3rem 0;
+}
+
+
+
+.nuestrosproductos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 2rem;
+    padding: 2rem;
+    margin-top: 20px;
+}
+
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.producto{
+    background-color: rgba(255, 55, 55, 0.768);
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.producto-blanco{
+    background-color: white;
+    height: 40rem;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.producto-precio, 
+.producto-nombre{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.producto-precio{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.producto-nombre{
+    font-size:3rem;
+    font-weight: 800;
+}

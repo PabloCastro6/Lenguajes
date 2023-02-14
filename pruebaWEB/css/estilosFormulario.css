@@ -1,12 +1,5 @@
-
-
-/*FORMULARIO*/
-
 #paso1 {
     overflow: hidden;
-}
-#legend{
-    right: 100%;
 }
 #datosCliente {
     float: left;
