@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
 
     <!--HEADER-->
     <header class="hero">
-        <nav class="nav__hero">
+        <nav id="nav__hero">
             <div class="container nav__container">
                 <div class="logo">
                     <h2 class="logo__name">Marathont_Shirt<span class="point">.</span></h2>
@@ -28,19 +30,25 @@
         </nav>
 
 
-        <section class="container hero__main">  
+        <section class="container hero__main">
             <div class="hero__textos">
-                <h1 class="title">La mejor <span class="title--active">pagina de camisetas Online.</span></h1> 
-                <p class="copy">Nos encargamos de conseguir tu camiseta <span class="copy__active">al mejor precio</span></p>
+                <h1 class="title">La mejor <span class="title--active">pagina de camisetas Online.</span></h1>
+                <p class="copy">Nos encargamos de conseguir tu camiseta <span class="copy__active">al mejor
+                        precio</span></p>
             </div>
             <img src="img/LOGO.PNG" class="mockup">
         </section>
     </header>
 
-<!--PUBLICIDAD-->
 
-<img id="PublicidadDerecha"  src="./img/publicidad.jpg">
-<img id="PublicidadIzquierda" src="./img/publicidad2.jpg">
+    <!--PUBLICIDAD-->
+    <div class="PublicidadDerecha">
+        <img id="PublicidadDerecha" src="./img/publicidad.jpg">
+    </div>
+    <div class="PublicidadIzquierda">
+        <img id="PublicidadIzquierda" src="./img/publicidad2.jpg">
+    </div>
+
 
     <!--CLIENTES-->
     <section class="testimony">
@@ -64,84 +72,60 @@
     </section>
 
 
-<!--INFORMACION-->
 
 
+    <!--INFORMACION-->
 
-<p>En Marathont Shirt cuidamos del medio ambiente, por ello, estamos comprometidos con la sostenibilidad en nuestras prendas.
-    Las camisetas que llevan en el etiquetado “MATERIALES SOSTENIBLES" Se ha confeccionado con al menos un 50% de contenido reciclado.</p>
-<p>Política y Condiciones de Venta de Camisetas
-<ol>
-    <li>1. Nuestras Camisetas están disponibles en una variedad de tamaños, estilos y colores.</li>
-    
-    <li> 2. Las Camisetas se entregarán en un plazo de entrega de 5-7 días hábiles.</li>
-    
-        <li>3. Los precios de las Camisetas son finales.</li>
-    
+    <div class="caja">¡Hola! IMPORTANTE 
+   
+        <p>En Marathont Shirt cuidamos del medio ambiente, por ello, estamos comprometidos con la sostenibilidad en
+            nuestras prendas.
+            Las camisetas que llevan en el etiquetado “MATERIALES SOSTENIBLES" </p>
+        <p>Política y Condiciones de Venta de Camisetas
+        <ol>
+            <li>1. Nuestras Camisetas están disponibles en una variedad de tamaños, estilos y colores.</li>
+
+            <li> 2. Las Camisetas se entregarán en un plazo de entrega de 5-7 días hábiles.</li>
+
+            <li>3. Los precios de las Camisetas son finales.</li>
+
             <li>4. Los gastos de envío se cargarán a cargo del comprador.</li>
-    
-                <li> 5. Los pagos se realizarán por adelantado antes de la entrega.</li>
-    
-                    <li> 6. Los compradores pueden devolver o intercambiar las Camisetas dentro de los primeros 7 días hábiles de recibir el producto.</li>
-                        <li> 7. Los compradores deben proporcionar una prueba de compra para devolver o intercambiar el producto.</li>
-    
-                            <li> 8. Los compradores no recibirán ningún reembolso o crédito </li>
-                        </ol>
+
+            <li> 5. Los pagos se realizarán por adelantado antes de la entrega.</li>
+
+            <li> 6. Los compradores pueden devolver o intercambiar las Camisetas dentro de los primeros 7 días hábiles
+                de recibir el producto.</li>
+            <li> 7. Los compradores deben proporcionar una prueba de compra para devolver o intercambiar el producto.
+            </li>
+
+            <li> 8. Los compradores no recibirán ningún reembolso o crédito </li>
+        </ol>
+   
+    </div>
 
     <!--FOOTER-->
     <footer class="footer">
-        <div class="container footer__caption">
-            <section class="download">
-                <h3 class="title__footer">Descarga nuestra App</h3>
-                <div class="download__app">
-                    <div class="download__item">
-                        <i class='bx bxl-apple download__logo' ></i>
-                        <h4 class="download__title">App Store</h4>
-                    </div>
-                    <div class="download__item">
-                        <i class='bx bxl-play-store download__logo' ></i>
-                        <h4 class="download__title">Play Store</h4>
-                    </div>
-                </div>
-                <div class="footer__copy">
-                    <p class="copyright">PabloCM &copy; 2020 Todos los derechos reservados</p>
-    
-                    <a href="#" class="politica__privacidad politica__privacidad--margin">Politica de privacidad</a>
-                    <a href="#" class="politica__privacidad ">Terminos y condiciones</a>
-                </div>
-            </section>
-            <section class="get-email">
-                <h3 class="title__footer">Enterate de las novedades y ofertas</h3>
-                <form class="newsletter newsletter--modifier">
-                    <input type="text" class="newsletter__input" placeholder="Ingresa tu email">
-                    <input type="submit" class="newsletter__submit" value="Comienza hoy">
-                </form>
-                <div class="socialmedia">
-                    <p class="socialmedia__legend">Siguenos en:</p>
-                    <i class='socialmedia__icon bx bxl-facebook-circle'></i>  
-                    <i class='socialmedia__icon bx bxl-instagram' href="https://www.instagram.com/marathont_shirt/"></i>
-                </div>
-            </section>
-        </div>
 
+        <!--CONTACTO-->
         <div class="contact">
             <div class="item__contact">
-                <i class='bx bx-copyright contact__icon' ></i>
+                <i class='bx bx-copyright contact__icon'></i>
                 <h3 class="contact__title">PabloCM</h3>
             </div>
             <div class="item__contact">
-                <i class='bx bx-mail-send contact__icon' ></i>
+                <i class='bx bx-mail-send contact__icon'></i>
                 <h3 class="contact__title">marathont_shirt@gmail.com</h3>
             </div>
             <div class="item__contact">
-                <i class='bx bxs-edit-location contact__icon' ></i>
+                <i class='bx bxs-edit-location contact__icon'></i>
                 <h3 class="contact__title">Opiniones</h3>
             </div>
             <div class="item__contact item__contact--gold">
-                <i class='bx bxs-chat contact__icon contact__icon--modifier' ></i>
+                <i class='bx bxs-chat contact__icon contact__icon--modifier'></i>
                 <h3 class="contact__title">Contactanos ahora</h3>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
