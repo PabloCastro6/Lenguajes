@@ -21,22 +21,13 @@
                 <a href="Productos.html" class="link">Productos</a>
                 <a href="Pedido.html" class="link">Pedidos</a>
                 <a href="Noticias.html" class="link">Noticias</a>
-                <a href="OtrosProductosOficiales.html" class="link">Otros productos Oficiales</a>
-                <a href="#" class="link link--active">Contacto</a>
+                <a href="https://shop.realmadrid.com/" class="link">Oficial</a>
+                <a href="https://www.decathlon.es/es/" class="link">Ropa Deportiva</a>
+                <a href="https://www.instagram.com/marathont_shirt/" class="link link--active">Contacto</a>
             </div>
         </div>
     </nav>
 
-
-    <section class="container hero__main">
-        <div class="hero__textos">
-            <h1 class="title">La mejor <span class="title--active">pagina de camisetas Online.</span></h1>
-            <p class="copy">Nos encargamos de conseguir tu camiseta <span class="copy__active">al mejor
-                    precio</span></p>
-        </div>
-        <img src="img/LOGO.PNG" class="mockup">
-    </section>
-</header>
 
 
 <!--PEDIDO-->
@@ -56,13 +47,13 @@
                             <input type="date" name="fecha">
                             <br>
                             <label for="name">DNI:</label>
-                            <input type="text" id="name" name="user_name">
+                            <input type="text" id="name" pattern="(C) / [A-Z]\w* Nº\d P\w">
                             <br>
                             <label for="email">Correo electrónico</label>
                             <input type="text" id="email">
                             <br>
                             <label for="pass"> Contraseña</label>
-                            <input type="password" id="pass">
+                            <input type="password" id="pass" pattern="_\w{0,7}_\S{5}&\d{2 }">
                             <br>(Longitud mínima 6 caracteres)
                         </fieldset>
                     </div>
@@ -159,10 +150,40 @@
         </form>
     </div>
 
-    <!--FOOTER-->
+
+    <!--INFORMACION-->
+
+    <div class="informacion">¡IMPORTANTE!
+   
+        <p>En Marathont Shirt cuidamos del medio ambiente, por ello, estamos comprometidos con la sostenibilidad en
+            nuestras prendas.
+            Las camisetas que llevan en el etiquetado “MATERIALES SOSTENIBLES" </p>
+        <p>Política y Condiciones de Venta de Camisetas
+        <ol>
+            <li>1. Nuestras Camisetas están disponibles en una variedad de tamaños, estilos y colores.</li>
+
+            <li> 2. Las Camisetas se entregarán en un plazo de entrega de 5-7 días hábiles.</li>
+
+            <li>3. Los precios de las Camisetas son finales.</li>
+
+            <li>4. Los gastos de envío se cargarán a cargo del comprador.</li>
+
+            <li> 5. Los pagos se realizarán por adelantado antes de la entrega.</li>
+
+            <li> 6. Los compradores pueden devolver o intercambiar las Camisetas dentro de los primeros 7 días hábiles
+                de recibir el producto.</li>
+            <li> 7. Los compradores deben proporcionar una prueba de compra para devolver o intercambiar el producto.
+            </li>
+
+            <li> 8. Los compradores no recibirán ningún reembolso o crédito </li>
+        </ol>
+   
+    </div>
+
+    <!--FOOTER
     <footer class="footer">
 
-        <!--CONTACTO-->
+        CONTACTO
         <div class="contact">
             <div class="item__contact">
                 <i class='bx bx-copyright contact__icon'></i>
@@ -182,5 +203,6 @@
             </div>
         </div>
     </footer>
+-->
 </body>
 </html>

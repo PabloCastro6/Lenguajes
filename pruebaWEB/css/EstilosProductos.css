@@ -7,7 +7,6 @@ html{
     --gold1:#F4BD76;
 }
 
-/*CABECERA*/
 
 /*CABECERA*/
 .container{
@@ -42,6 +41,7 @@ html{
     justify-content: space-between;
     height: inherit;
     padding: 0;
+    margin-top: -4rem;
 }
 
 .logo__name{
@@ -103,7 +103,7 @@ html{
 
 /*Productos*/
 img{
-    width: 100%;
+    width: 90%;
     
 }
 
@@ -112,9 +112,9 @@ img{
 }
 
 .contenedor{
-    max-width: 120rem;
+    max-width: 110rem;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 13px;
 }
 
 
@@ -134,25 +134,32 @@ img{
     font-weight: 600;
     margin: 2rem;
     padding: 2rem;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 
 .productos{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
 }
 
 
 .producto{
-    background-color: rgba(255, 55, 55, 0.768);
-    margin: 2rem;
-    padding: 2rem;
+    background-color:#F4BD76;
+    margin: 1rem;
+    padding: 3rem;
+}
+
+.productos-blanco{
+    width: 500px;
+    right: 700px;
+    margin-top: 1rem;
+    text-align: center;
 }
 
 .producto-blanco{
     background-color: white;
-    height: 40rem;
+    height: 30rem;
     object-fit: contain;
     padding: 1rem;
 }
@@ -167,11 +174,28 @@ img{
 
 
 .producto-precio{
-    font-size: 2.5rem;
-    font-weight: 800;
+    font-size: 1.8rem;
+    font-weight: 600;
 }
 
 .producto-nombre{
-    font-size:3rem;
-    font-weight: 800;
+    font-size:2rem;
+    font-weight: 600;
 }
+
+
+
+
+/*CATALOGO*/
+p.Catalogo {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20rem;
+    transition: width 2s, height 2s, transform 2s;
+  }
+
+  .Catalogo:hover {
+    transform: rotate(360deg);
+  }
+
+ 

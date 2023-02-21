@@ -99,7 +99,12 @@ body{
     object-fit: cover;
     width: 48%;
     max-height: 90vh;
+    transition: background-color 2s linear 1s, transform 3s;
 }
+.mockup:hover {
+    transform: rotateY(180deg);
+  }
+  
 
 
 

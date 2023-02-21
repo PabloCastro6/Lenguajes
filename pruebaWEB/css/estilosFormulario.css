@@ -1,3 +1,9 @@
+*{
+    background-color: lightgray;
+}
+
+
+
 #paso1 {
     overflow: hidden;
 }
